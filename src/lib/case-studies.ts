@@ -123,7 +123,7 @@ export const CASE_STUDIES: CaseStudy[] = [
           "Designed a mobile-first experience that serves community members accessing the site from various devices, with fast load times and intuitive navigation.",
       },
     ],
-    liveUrl: "https://sosa-sports.vercel.app",
+    liveUrl: "https://sosabasketball.org",
     githubUrl: "https://github.com/jburchel/sosa",
     isPrivate: false,
   },
