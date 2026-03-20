@@ -10,31 +10,24 @@ export const NAV_LINKS: NavLink[] = [
 export const TIMELINE: TimelineItem[] = [
   {
     year: "2023–Present",
-    title: "Systems & Technology Director / Full-Stack Developer",
-    company: "Crossover Global & Freelance",
+    title: "Systems & Technology Director",
+    company: "Crossover Global",
     description:
-      "Architect and develop CG-One, a 380K+ line enterprise platform with SSO, 10+ modules, and role-based access. Oversee all technology infrastructure for a multinational nonprofit. Simultaneously building freelance web applications with Next.js and Vercel.",
+      "Architect and develop CG-One, a 380K+ line enterprise platform with Google OAuth SSO, 10+ modules, and role-based access. Oversee all technology infrastructure for a multinational nonprofit.",
   },
   {
-    year: "2011–2022",
-    title: "Trainer",
-    company: "NC School Health Training Center (ECU)",
+    year: "2023–Present",
+    title: "Freelance Full-Stack Developer",
+    company: "Independent",
     description:
-      "Delivered professional training to youth-serving professionals across North Carolina. Trained professionals nationally in evidence-based curricula.",
+      "Design and build custom web applications for clients using Next.js, Supabase, and Vercel. Deliver production-ready projects with clean, maintainable codebases.",
   },
   {
-    year: "2006–2017",
-    title: "Pregnancy Prevention Director",
-    company: "Thomasville City Schools / Communities In Schools",
+    year: "2002–2023",
+    title: "Web Development (Self-Directed)",
+    company: "",
     description:
-      "Managed award-winning adolescent pregnancy prevention program with national recognition. Received multiple APPCNC awards. Certificate in Non-Profit Management from Duke University (2009).",
-  },
-  {
-    year: "2003–Present",
-    title: "Web Development",
-    company: "Self-Taught & Ongoing",
-    description:
-      "Building websites since 2003. Progressed from basic web development to full-stack engineering with modern frameworks. Serious production development work over the last 3 years.",
+      "Built and deployed websites for organizations starting in 2002, steadily expanding from static sites to dynamic web applications. Laid the foundation for the full-stack engineering work I do today.",
   },
 ];
 
