@@ -39,7 +39,7 @@ export const TIMELINE: TimelineItem[] = [
 ];
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/jimburchel",
+  github: "https://github.com/jburchel",
   linkedin: "https://linkedin.com/in/jimburchel",
 };
 

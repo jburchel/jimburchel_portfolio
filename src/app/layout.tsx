@@ -49,7 +49,7 @@ const jsonLd = {
   description:
     "Full-stack developer specializing in enterprise web applications with Next.js, React, and cloud-native architectures.",
   sameAs: [
-    "https://github.com/jimburchel",
+    "https://github.com/jburchel",
     "https://linkedin.com/in/jimburchel",
   ],
 };

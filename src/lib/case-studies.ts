@@ -124,7 +124,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       },
     ],
     liveUrl: "https://sosa-sports.vercel.app",
-    githubUrl: "https://github.com/jimburchel/sosa-community-sports",
+    githubUrl: "https://github.com/jburchel/sosa",
     isPrivate: false,
   },
 ];
