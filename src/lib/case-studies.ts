@@ -165,7 +165,7 @@ export const CASE_STUDIES: CaseStudy[] = [
           "Built a saved lists feature with Firestore, allowing users to curate people group collections, share them with team members via email, and export data to CSV/Excel/JSON formats.",
       },
     ],
-    liveUrl: "https://global-data-grid.web.app",
+    liveUrl: "https://globalreach-app.web.app",
     githubUrl: "https://github.com/jburchel/globalreach",
     isPrivate: false,
   },
