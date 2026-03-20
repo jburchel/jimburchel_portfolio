@@ -127,6 +127,48 @@ export const CASE_STUDIES: CaseStudy[] = [
     githubUrl: "https://github.com/jburchel/sosa",
     isPrivate: false,
   },
+  {
+    slug: "globalreach",
+    title: "GlobalReach",
+    subtitle: "Joshua Project People Group Research Tool",
+    description:
+      "A web application for researching unreached people groups worldwide using the Joshua Project API. Features advanced search with demographic, religious, and geographic filters, saved research lists with team sharing, and real-time data from the comprehensive Joshua Project database.",
+    techStack: [
+      "React",
+      "Vite",
+      "Firebase",
+      "Firestore",
+      "Google OAuth",
+      "Tailwind CSS",
+      "Joshua Project API",
+    ],
+    metrics: [
+      { label: "Data Source", value: "Joshua Project" },
+      { label: "Auth", value: "Google OAuth" },
+      { label: "Database", value: "Firestore" },
+      { label: "Type", value: "Public" },
+    ],
+    challenges: [
+      {
+        title: "External API Integration with Caching",
+        description:
+          "Built a Firebase Cloud Functions proxy layer for the Joshua Project API with 10-minute caching, retry logic with exponential backoff, and error handling to provide reliable access to external data.",
+      },
+      {
+        title: "Advanced Search & Filtering",
+        description:
+          "Implemented a comprehensive search system with filters for country, language, religion, population range, unreached status, frontier status, and Joshua Project scale — all querying millions of people group records.",
+      },
+      {
+        title: "Collaborative Research Lists",
+        description:
+          "Built a saved lists feature with Firestore, allowing users to curate people group collections, share them with team members via email, and export data to CSV/Excel/JSON formats.",
+      },
+    ],
+    liveUrl: "https://global-data-grid.web.app",
+    githubUrl: "https://github.com/jburchel/globalreach",
+    isPrivate: false,
+  },
 ];
 
 export function getCaseStudy(slug: string): CaseStudy | undefined {
